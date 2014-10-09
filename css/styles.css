@@ -25,10 +25,10 @@ body, html {
   min-height: 480px;
   font: 400 16px/1.4 "futura-pt", Helvetica, Arial, sans-serif; }
   #game h1 {
-    font: 5em/1.5 "bello-pro", "Cooper STD", Georgia, serif;
+    font: 3em/1.5 "bello-pro", "Cooper STD", Georgia, serif;
     margin: 5% auto;
     text-align: center;
-    color: #2b5204;
+    color: black;
     text-shadow: 0 -1px 3px rgba(0, 0, 0, 0.2), 0 -1px 0px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(152, 184, 42, 0.15), 0 1px 4px rgba(152, 184, 42, 0.2);
     text-align: center;
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(white));
@@ -37,7 +37,8 @@ body, html {
     display: block;
     padding: 1em 0;
     color: #77a421;
-    font-size: 0.65em;
+    font-size: 2em;
+    font-weight:700;
     letter-spacing: 0.1em;
     text-transform: uppercase; }
   #game #ui {
@@ -73,10 +74,11 @@ body, html {
         position: absolute;
         top: -37px;
         left: 5%;
-        font-size: 0.9em;
+        font-size: 1.1em;
+        font-weight:700;
         text-transform: uppercase;
         letter-spacing: 0.15em;
-        color: rgba(208, 209, 78, 0.3); }
+        color: black; }
         #game #ui .zone .label.right {
           left: auto;
           right: 5%; }
@@ -84,7 +86,7 @@ body, html {
         position: absolute;
         top: 50%;
         left: 0;
-        font-size: 4.5em;
+        font-size: 4em;
         margin: -50px 5% 0 0;
         text-align: center; }
       #game #ui .zone #deal, #game #ui .zone #actions {
@@ -172,8 +174,9 @@ body, html {
       background-color: rgba(208, 209, 78, 0.3);
       width: 25%;
       padding: 0.75em 0 0.5em 0;
-      color: #437714;
-      font-size: 1em;
+      color: black;
+      font-size: 1.5em;
+      font-weight: 800;
       letter-spacing: 0.15em;
       text-align: center;
       text-transform: uppercase;
@@ -282,8 +285,9 @@ body, html {
   #game #player-cards {
     bottom: -120px; }
   #game #player-total, #game #dealer-total {
-    font-size: 1em;
-    color: #fff; }
+    font-size: 1.2em;
+    font-weight: 800;
+    color: white; }
 
 #message {
   z-index: 999;
