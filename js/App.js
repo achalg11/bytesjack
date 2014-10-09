@@ -390,6 +390,7 @@ App.prototype = (function() { var pro = {};
       }
       
       msg.innerHTML = content;
+      msg.style.top = "620px";
       pCardsContainer.after(msg);
   };
 
@@ -559,7 +560,7 @@ App.prototype = (function() { var pro = {};
 
   var changeBankroll = function ( increment ) {
       bank += increment * currentBet;
-      bankroll.html((bank / 10) + 'k');
+      bankroll.html('$' +(bank / 10) + 'k');
   };
 
 return pro })();
